@@ -27,7 +27,7 @@ On the options page you can modify which Amazon stores to open among UK, IT, DE,
 popup.html represents the window opened upon pressing the MultiAmazon button on the top right corner of the chrome UI;
 this file only contains the form and a reference to popup.js.
 
-popup.js contains a clickHandler; whenever a click is performed, the function openTabs(query) is performed.
+popup.js contains a clickHandler; whenever a click is performed, the function openTabs(query) is executed.
 This function will attempt to open the Amazon Stores tabs; to do so, it must first retrieve the user's preferences and then only open the desired stores.
 
 options.html represents the options page; it contains the checkboxes, the Save button and a reference to options.js.
