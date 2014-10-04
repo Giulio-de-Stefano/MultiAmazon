@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "MultiAmazon",
     "description": "Search once for multiple Amazon stores (UK,IT,DE,ES,FR) to be opened",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "permissions": ["tabs", "storage"],
     "icons": {
         "16": "MA_icon_16.png",
